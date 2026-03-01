@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Things to do in Philly</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+    <main class ="content">
+        <header>
+            <h1>Things to do in Philly</h1>
+            <!-- Comment: I checked that it didn't seem right to have an <h2> element when it provide the description so I replace with the <p> element to make it suitable and accessible-->
+            <!--Update Comment: I have updated element of <h2> to <p> with the class called description, because it seemed to be more suitable for the description and made a class for it.-->
+            <p class="description">Welcome to the website, Things to do in Philly, here in this website  we want people to explore and know about the city of Philadelphia, also known as the city of brotherly love. Located in Pennsylvania. </p>
+            <p>Here in this website, you can be able to find many unique and amazing events located in Philadelphia to be able to explore and enjoy. In this case there are 3 events that are being hosted in Philadelphia of this February, where each has additional information such as the registration and purchase of tickets.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- Additional Comment: I have added the images of the 3 events in addition to add a unique touch the website and had used the images from both sites, eventbrite.com and allevents.in, which provide me the events for the assignment, and that those images belong to their rightful owners and I do not own them.-->
+
+        <!--The way I found about this event was through doing thorough research of which events are being hosted somewhere around Philadelphia all thanks to the website allevents.in, allowing me to find events in Philadelphia, and I came across this which caught my attention as of how vibrant and dynamic it is, in addition with the celebration of music in the past decades which is very nostalgic, I just knew the party was going to be awesome!-->
+        <!--Update Comment: I changed the <h3> element to <h2> because the validtor says it is best suggested to use <h2> for the event: Disco 2000 - Millennial Trash Dance Party For All! And also modified the alt text to make it more descriptive and accessible.-->
+        <article>
+            <h2>Disco 2000 - Millennial Trash Dance Party For All!</h2>
+            <img src="disco2000.png" alt="Black and neon pink flyer with a vibrant disco ball party as a background taking place in the year 2000s enjoying the genre of different music and dancing." id="image1">
+            <p>Date: Friday, February 27, 2026</p>
+            <p>Time: 10:00 PM - 2:00 AM</p>
+            <p>Location: 714 N 2nd St, Philadelphia, PA 19123-3008, United States</p>
+            <!--Update Comment: I have updated the text for the link of the event where it wont have the sentence "Click here" sentence inside it to make it accessible-->
+            <a class="button" href="https://allevents.in/philadelphia/disco-2000-millennial-trash-dance-party-for-all/200029617450801">Register for the Disco 2000 Party</a>
+        </article>
+        <!-- The way I found about this event was through doing extensive research just like how I did with Disco 2000 - Millennial Thrash Dance Party For All, but with the help of the website eventbrite.com, assisting me which events would be hosted in the city of Philadelphia, alongisde that I realize that sooner or later Valentines Day is around the corner and it seemed right to add a Valentines event being hosted in Philadelphia!-->
+        <!--Update Comment: I changed the <h3> element to <h2> because the validtor says it is best suggested to use <h2> for the event: CUBHOUSE PHILLY VALENTINE'S DANCE PARTY. And also modified the alt text to make it more descriptive and accessible.-->
+        <article>
+            <h2>CUBHOUSE PHILLY VALENTINE'S DANCE PARTY</h2>
+            <img src="phillysvalentinedanceparty.png" alt="Close up flyer of a Valentine Heart with a pink background that has sprinkles as a decoration." id="image2">
+            <p>Date: Friday, February 13, 2026</p>
+            <p>Time: 9:00 PM - 2:00 AM</p>
+            <p>Location: 254 South 12th Street Philadelphia, PA 19107</p>
+            <!--Update Comment: I have updated the text for the link of the event where it wont have the sentence "Click here" sentence inside it to make it accessible-->
+            <a class="button" href="https://www.eventbrite.com/e/cubhouse-philly-valentines-dance-party-tickets-1936787556719?aff=ebdssbcitybrowsenightlife">Register for the Valentine's Dance Party</a>
+        </article>
+        <!-- The way I found about this event was doing the usual research process just like Disco 2000 and the Philly's Valentine Dance Party, though it is from the same website, allevents.in, in addition I really think that hosting a roller skating party is both nostalgic and an interesting event to host, allowing families in Phildelphia to have a great time and enjoying the moment. And I believe this party stand out when I was planning which events would be selected for the website, which I believe is nice.-->
+        <!--Update Comment: I changed the <h3> element to <h2> because the validtor says it is best suggested to use <h2> for the event: Scout Troop 1313's Roller Skating Night. And also modified the alt text to make it more descriptive and accessible.-->
+        <article>
+            <h2>Scout Troop 1313's Roller Skating Night</h2>
+            <img src="rollerskatingnight.png" alt="A poster of 2 children roller skating in a rink having a great time under a disco ball." id="image3">
+            <p>Date: Wednesday, February 18th, 2026</p>
+            <p>Time: 5:00 PM - 8:00 PM</p>
+            <p>Location: 11586 Roosevelt Blvd, Philadelphia, Pennsylvania, Feasterville Trevose, United States</p>
+            <!--Update Comment: I have updated the text for the link of the event where it wont have the sentence "Click here" sentence inside it to make it accessible-->
+            <a class="button" href="https://allevents.in/feasterville-trevose/skating-party-for-all/200029568221542">Register for the Roller Skating Night</a>
+        </article>
+    </main>
+    <!--Comment: I had checked that the sidebar was not accessible and had issues where it has multiple <p> elements and thought it be better to make a list using the <ul> and <li> elements to make it accessible as well.-->
+    <!--Update Comment: I manage to modify the sidebar to switch the <p> element to a <ul> and <li> element so it can function as a list of fun facts about Philadelphia, in addition to changing the text of the link to not have the "Click here" sentence inside it to make it accessible.-->
+        <aside class="sidebar">
+                <p class="funfact">Here are some fun facts about Philadelphia:</p>
+                <ul>
+                <li class="funfact">#1 Fun Fact: Did you know, the University of Pennsylvania was founded by Benjamin Franklin in 1740, making it the 5th oldest college in the country?</li>
+                <li class="funfact">#2 Fun Fact: Did you know, the author, Edgar Allen Poe lived in Philadelphia for six years and published dozens of works during his time in the city? The home he lived in is an important local landmark that is open for free tours.</li>
+                <li class="funfact">#3 Fun Fact: Did you know, the Pennsylvania Academy of the Fine Arts is the first and oldest art museum and art school in the United States?</li>
+                </ul>
+            <p class="funfact">If you are interested in learning more fun facts about Philadelphia, go to the link below!</p>
+            <a class = "facts" href="https://guidetophilly.com/philadelphia-facts/">Learn more new fun facts about Philadelphia!</a>
+        </aside>
+    </div>
+    <!--Comment: I had checked both the requirements and rubric and that I needed to implement some form and label inside the code, so I looked at the WebAIM resources website which can help solve my problem and make it possible for it to be accessible.-->
+    <!--Update Comment: To be able to implement a label for this assignment, I made a Newsletter subscription section where in the section element it has both elements of the form and label.-->
+<section class="email">
+    <h2>Newsletter Subscription</h2>
+    <p id="newsletter">Subscribe to our newsletter for updates on upcoming events in Philadelphia!</p>
+    <form>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email address">
+    <button type="submit">Subscribe</button>
+    </form>
+</section>
+<footer class="credits">This is the work of CCP Student Tahsan Rahman for Course CIS 130 900 ONLAS 15A SP26, Web Design. And all the assets/images belong to their rightful owners and are credited in the code. </footer>
+<!--Tool used in this HTML: https://validator.w3.org/, this is a validator for HTML to see whether it is valid and correct and if not it will help point out my mistakes.-->
+<!--Tools used in this HTML: https://webaim.org/resources/, the WebAIM website was provided in this weeks module and wanted to add that it helped me understand what to do when it comes to web accessibility and for this assignment which has many resources that made it happen such as "Quick Reference".-->
+<!--Tools used in this HTML: https://www.w3schools.com/tags/tag_label.asp, the W3Schools website helped me understand about <label> element tag so I can be able to implement the system for this assignment along with the <form> element tag.-->
+<!--Tools used in this HTML: https://www.w3schools.com/tags/tag_form.asp, this also belongs to the W3Schools website which covered and help me understand about the <form> element tag and implement the system inside the HTML code for this assignment also.-->
+</body>
+</html>

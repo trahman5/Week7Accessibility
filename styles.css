@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #a9a9a9;
+}
+/*Update Comment: I have modified the background color of the body to where it is more shaded so that way it can help people who have visual disabilities and make it easy on the eyes and also making the website accessible.*/
+#image1, #image2, #image3 {
+    width: 175px;
+    height: 200px;
+    border: 5px solid #143f65;
+}
+/*Update Comment: I have modified the border color of the images to be a bit more darker so it can be more easy on the eyes and it make it accessible.*/
+.description {
+    color: rgb(255, 255, 255);
+    background-color: #1f5a8e;
+    border: #143f65 solid 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+/*Update Comment: Before the description class, it was for <h2> element tag but I changed inside the HTML to replace it with the <p> element tag and added the description class, in addition to make the font size bigger for it to be readable which makes it both suitable and accessible as well.*/
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: #1f5a8e;
+    border: #143f65 solid 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Update Comment: I changed the both the color of the background and border, but same border color as the description class, to be a bit more darker so it can be more accessible and easier on the eyes.*/
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    background-color: #195385;
+    color: white;
+    border: 5px solid #143f65;
+    padding: 10px;
+    width: 5px;
+}
+/*Update Comment: I also changed both the color of the background and border of the side bar just like the description class and h1 header but different background color but same border color so it can be more accessible and easier on the eyes.*/
+.sidebar {
+    flex: 1;
+    background-color: #275982;
+    padding: 20px;
+    border-left: solid 4px #143f65;
+}
+/*Update Comment: I have modified the sidebar's background color and border to be a bit more darker, but same border color as the, description class, h1 header and button, so it can be more accessible and easier on the eyes.*/
+nav {
+    background-color: #1f5a8e;
+    border: 10px solid #143f65;
+    padding: 1.5px;
+
+}
+/*Update Comment: For the navigation bar, I have changed the background color and border to be a bit more darker, but it is the same border color as the description class, h1 header, button and the side bar, so it can be more accessible and easier on the eyes.*/
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: stretch;
+    width: 100%;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+nav li {
+    display: flex;
+    margin: 10px;
+    font-size: 21px;
+}
+
+h2 {
+    color: #143f65;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Update Comment: Before the <h2> element tag, it was at first the <h3> element tag for the titles of the three events inside the html but modified it so there wont be any errors or issues, and change the color of the text to be a bit more darker so it can be more easy on the eyes and also accessible.*/
+
+.funfact {
+    color: white;
+}
+
+.credits {
+    color: #003a6f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Update Comment: For the credits section, I have changed the color of the text to be a bit more darker so it can be more accessible and easier on the eyes.*/
+.facts {
+    color: white;
+}
+
+.email {
+    color: #003a6f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Update Comment: Since I had just made the newsletter subscription section for it to be a form and have a label as a requirement and a rubric of this assignment, I had made a class to where it would just add the color of the text to be a bit more darker of blue and added the font-family, so it can be more easy on the eyes and for it to be accessible.*/
+#newsletter {
+    background-color: #195385;
+    color: white;
+    border: 5px solid #143f65;
+    padding: 10px;
+    width: 100%;
+}
+/*Update Comment: Since I had just made the newsletter subscription section, I had made the <p> element tag have an id called newsletter so I can be able to customize the title to make it more accessible and easier on the eyes such as modifying the font size and the color of the text, etc.*/
+
+/*Tools I have used for the CSS: https://htmlcolorcodes.com/, using the html color code website helps me being able to explore which shades of the colors based on the website would be fitted best.*/
+/*Tools I have used for the CSS: https://imagecolorpicker.com/, this websute image color picker allows me to send in the screenshot of the colors I used for the week 4 assignment from my week 5 style guide webpage and figure out which shade is best for the assignment and webpage.*/
+/*Tools I have used for the CSS: https://webaim.org/resources/contrastchecker/, this WebAIM website help me compare the contrast of the colors from the week 4 webpage assignment so I can see if the color is accessible and meets the accessibility standards.*/
+/*Tools I have used for the CSS: https://jigsaw.w3.org/css-validator/, this website helps me ensure that my CSS code is valid and that it would not have any errors or issues.*/
+/*Tools I have used for the CSS: https://trahman5.github.io/Week5StyleGuide/, yes my own website since it has the hex colors being used for the week 4 website to where I can be to help solve the contrast issue and make the webpage more accessible and easier on the eyes.*/
+
+/*I have chosen Flexbox. The reason why I have chosen this web layout is that Flexbox is a bit more of a friendly yet easy approach when it comes to designing a website in CSS compared to the other web layout, Grid.*/ 
+/*In addition to that, it is also a one-dimensional layout, allowing me to work on either rows or columns, in comparison with the web layout, Grid, which is a two-dimensional layout, allowing you to work on both rows and columns.*/
+/*Flexbox is also easy to use, although for me it was perhaps a bit hard at first, but I slowly got the hang of it, and the layout model itself is flexible and responsive, it is also useful when it comes to doing small projects, assisting me when it comes to designing my website with the CSS, resulting in it making it very extraordinary and stand out, to where Grid is not only responsive, but also sophisticated and precise, and it is more used in a complex and significant approach towards bigger projects.*/
+/*Overall, they are both good web layouts, depending on what the project is, whether it is small or huge, but I believe Flexbox is the way to go.*/
